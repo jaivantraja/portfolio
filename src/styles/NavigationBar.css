@@ -1,0 +1,29 @@
+a{
+    color:white;
+    text-decoration: none;
+}
+.navigation-bar{
+    padding-left: 20px;
+    padding-top: 40px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 4.7rem;
+    font-size:30px;
+    height: 50px;
+    & a {
+        color:black;
+    }
+    background-color: #FEFBF6;
+}
+.navigation-item :hover{
+    background-color:black;
+    color:whitesmoke;
+    border-radius: 30px;
+    padding: 13px;
+}
+/*@media (max-width: 1780px) {*/
+/*    .navigation-bar{*/
+/*        display:none;*/
+/*    }*/
+/*}*/
