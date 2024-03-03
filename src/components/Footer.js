@@ -10,25 +10,25 @@ export default function Footer(){
                     <div className="wave" id="wave4"></div>
                 </div>
                 <ul className="social-icon">
-                    <li className="social-icon__item"><a className="social-icon__link" href="#">
+                    <li className="social-icon__item"><a className="social-icon__link" href="www.linkedin.com/in/jaivant-rajasekaran-b6b6a7220">
                         <img  title={"LinkedIn"} src="/icons/linkedin.png" alt="LinkedIn" width="30" height="30"/>
                     </a></li>
-                    <li className="social-icon__item"><a className="social-icon__link" href="#">
+                    <li className="social-icon__item"><a className="social-icon__link" href="https://www.github.com/jaivantraja">
                         <img  title={"Github"} src="/icons/github.png" alt="Github" width="30" height="30"/>
                     </a></li>
                     <li className="social-icon__item"><a className="social-icon__link" href="#">
                         <img title={"Gmail"} src="/icons/gmail-logo.png" alt="Gmail" width="30" height="30"/>
                     </a></li>
-                    <li className="social-icon__item"><a className="social-icon__link" href="#">
-                        <img  title={"StackOverflow"} src="/icons/medium.png" alt="Stackoverflow" width="30" height="30"/>
+                    <li className="social-icon__item"><a className="social-icon__link" href="https://medium.com/@jaivantzte">
+                        <img  title={"Medium"} src="/icons/medium.png" alt="Medium" width="30" height="30"/>
                     </a></li>
                 </ul>
                 <ul className="menu">
                     {/*<li className="menu__item"><a className="menu__link" href="#">Home</a></li>*/}
-                    <li className="menu__item"><a className="menu__link" href="#about">About</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">HackerRank</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">LeetCode</a></li>
-                    <li class="menu__item"><a class="menu__link" href="https://www.github.com/jaivantraja">GitHub</a></li>
+                    <li className="menu__item"><a className="menu__link" href="https://jaivantraja.netlify.app/">About</a></li>
+                    <li class="menu__item"><a class="menu__link" href="https://www.hackerrank.com/profile/jaivant">HackerRank</a></li>
+                    <li class="menu__item"><a class="menu__link" href="https://leetcode.com/Jaivant/">LeetCode</a></li>
+                    // <li class="menu__item"><a class="menu__link" href="https://www.github.com/jaivantraja">GitHub</a></li>
 
                 </ul>
                 <p>&copy;2024 Jaivant B R | All Rights Reserved</p>
