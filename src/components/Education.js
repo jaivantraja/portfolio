@@ -6,7 +6,7 @@ export default function Education(){
             <div className={"education-timeline"}>
                 <div className={"education-timelineItem"}>
                     <h3 className={"date"}>2021 - 2025</h3>
-                    <h4 className={"degree"}>BE Computer Science Engineering <b>GPA OF 8.48/10</b></h4>
+                    <h4 className={"degree"}>BE Computer Science Engineering <b>GPA OF 8.60/10</b></h4>
                     <p className={"school"}>PSG Insitute Of Technology And Applied Research, Coimbatore, India</p>
                 </div>
                 <div className={"education-timelineItem"}>
