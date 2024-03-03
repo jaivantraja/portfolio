@@ -85,7 +85,7 @@
         font-size:20px;
     }
     transition :box-shadow 0.5s;
-    animation: upwardAnimation 10s linear infinite;
+/*     animation: upwardAnimation 10s linear infinite; */
 }
 .right-scrollable .card:hover{
     box-shadow: none ;
