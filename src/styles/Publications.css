@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 .publication-panel{
     height: 100vh;
     display: flex;
@@ -7,10 +8,13 @@
     gap:3rem;
 }
 .publications-title{
-    font-size:80px;
+    font-size:10vh;
     text-align:center;
     color:whitesmoke;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
 }
 .container {
     color: white;
@@ -53,8 +57,8 @@
 /*}*/
 
 .container .box {
-    width: 15em;
-    height: 20em;
+    width: 30vh;
+    height: 40vh;
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.074);
     border: 1px solid rgba(255, 255, 255, 0.222);
@@ -71,20 +75,20 @@
 }
 
 .container .box .title {
-    font-size: 1.3rem;
+    font-size: 2.5vh;
     font-weight: 500;
     letter-spacing: 0em;
 }
 
 .container .box div strong {
     display: block;
-    font-size: 1.1rem;
+    font-size: 1.5vh;
     margin-bottom: 0.5rem;
 }
 
 .container .box div p a {
     margin: 0;
-    font-size: 1.1em;
+    font-size: 1.5vh;
     font-weight: 300;
     letter-spacing: 0.1em;
 }
@@ -117,5 +121,10 @@
     }
     .container .box{
        /*width:100vh;*/
+    }
+}
+@media (max-height: 663px) {
+    .publication-panel{
+        height:fit-content;
     }
 }

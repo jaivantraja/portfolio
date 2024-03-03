@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 .projects-body{
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: whitesmoke;
+    background-color: whitesmoke;
     display: flex;
+    border-radius: 40px;
     flex-direction:column;
     justify-content: center;
     align-items: center;
@@ -11,7 +13,11 @@
     /*font-family: consolas;*/
 }
 .projects-title{
-    font-size:80px;
+    font-size:10vh;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
     /*font-family:  sans-serif;*/
 }
 .container{
@@ -77,7 +83,7 @@
     padding: 0;
     color: #ffffff;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 2.2vh;
 }
 
 .container .card .face.face2{
@@ -88,7 +94,7 @@
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8);
     transform: translateY(-100px);
     overflow-y:auto;
 }
@@ -100,7 +106,7 @@
 .container .card .face.face2 .content p{
     margin: 0;
     padding: 0;
-    font-size:0.8em;
+    font-size:1.4vh;
 }
 
 .container .card .face.face2 .content a{
@@ -121,5 +127,8 @@
     .container{
         flex-direction:column;
         gap:1rem;
+    }
+    .projects-title{
+        font-size:6vh;
     }
 }

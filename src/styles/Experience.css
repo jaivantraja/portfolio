@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 .experience-body{
     background-color:whitesmoke ;
     height:fit-content;
@@ -44,6 +45,7 @@
 .right-scrollable{
     overflow-y:scroll;
     height:100vh;
+    /*width:100vh;*/
     flex-grow:2;
     display: flex;
     flex-direction:row;
@@ -54,13 +56,18 @@
 }
 .left-fixed{
     margin-left: 10px;
-    font-size:5em;
+    font-size:10vh;
     color:white;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
 }
 .right-scrollable-1{
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
+    /*width:fit-content;*/
     gap:1rem;
     /*animation: upwardAnimation 10s linear infinite;*/
 }
@@ -94,8 +101,22 @@
 @media (max-width: 1270px) {
     .experience-body{
         flex-direction:column;
+        /*justify-content: center;*/
     }
     .right-scrollable{
         flex-direction:column;
+        width:fit-content;
+    }
+    .left-fixed{
+        font-size:6vh;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1270px) {
+    .right-scrollable{
+        flex-direction:column;
+        width:100vh;
+    }
+    .right-scrollable-1{
+        justify-content:center;
     }
 }

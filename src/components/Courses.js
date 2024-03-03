@@ -22,7 +22,7 @@ export default function Courses(){
                         <a href="https://coursera.org/share/081cb72d36b3fbbfd99aee0abb76cca5" className="ag-courses-item_link">
                             <div className="ag-courses-item_bg"></div>
                             <div className="ag-courses-item_title">
-                                Supervised Machine Learning: Regression And ClassificationI
+                                Supervised Machine Learning: Regression And Classification
                             </div>
                             <div className="ag-courses-item_date-box">
                                 Duration:
