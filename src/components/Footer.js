@@ -27,7 +27,7 @@ export default function Footer(){
                     {/*<li className="menu__item"><a className="menu__link" href="#">Home</a></li>*/}
                     <li className="menu__item"><a className="menu__link" href="https://jaivantraja.netlify.app/">About</a></li>
                     <li class="menu__item"><a class="menu__link" href="https://www.hackerrank.com/profile/jaivant">HackerRank</a></li>
-                    <li class="menu__item"><a class="menu__link" href="https://leetcode.com/Jaivant/">LeetCode</a></li>
+                    <li class="menu__item"><a class="menu__link" href="https://leetcode.com/jaivant_manki/">LeetCode</a></li>
                     { /* <li class="menu__item"><a class="menu__link" href="https://www.github.com/jaivantraja">GitHub</a></li>*/}
 
                 </ul>
