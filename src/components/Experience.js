@@ -56,6 +56,7 @@ export default function Experience(){
                </div>
                 <div className={"right-scrollable-2"}>
                     {experienceCard("/icons/squash2.png","Full Stack-Web Development","Worked using NodeJS(ExpressJS), ReactJS, MongoDB, Postman API tool.","")}
+                    {experienceCard("/icons/sap1.png","Local Recommendation System","Worked on a Retrieval Augmented Generation based hotel recommendation system.","")}
                 </div>
             </div>
         </div>
